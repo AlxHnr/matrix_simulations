@@ -112,8 +112,6 @@
   #define farbe_turkis 46
   #define farbe_weis 47
 
-  unsigned char matrixvariable[matrix_pixel];/*Hauptvariable, die die Farbe für jeden Pixel enthält*/
-
   void matrix(unsigned short spalte,unsigned short zeile,unsigned char farbe);
   void gebeaus();
 

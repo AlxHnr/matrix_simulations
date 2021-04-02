@@ -1,5 +1,7 @@
 #include "matrix_lib.h"
 
+unsigned char matrixvariable[matrix_pixel];/*Hauptvariable, die die Farbe für jeden Pixel enthält*/
+
 void matrix(unsigned short spalte,unsigned short zeile,unsigned char farbe){
   if(spalte > matrix_breite)
     return;
